@@ -1,0 +1,19 @@
+.profile-photo {
+  width:144px;
+  height:144px;
+}
+.side-content {
+  margin: 0px;
+  color: hsla(0,0%,100%,.5) !important;
+  font-weight:bold;
+  font-size:18px;
+}
+.side-content:hover {
+  color: hsla(0,0%,100%,0.75) !important;
+}
+.side-content-highlighted {
+  margin: 0px;
+  color: white !important;
+  font-weight:bold;
+  font-size:18px;
+}

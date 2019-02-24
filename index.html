@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<!--<title> CV | Andre Perez</title>-->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+		<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" >
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans|Saira+Extra+Condensed">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+		<link rel="stylesheet" href="static/css/color.css">
+		<link rel="stylesheet" href="static/css/general.css">
+		<link rel="stylesheet" href="static/css/sideContent.css">
+		<link rel="stylesheet" href="static/css/mainContent.css">
+	</head>
+	<body>
+		<main style="scroll-behavior:smooth">
+			<ul id="slide-out" class="sidenav sidenav-fixed" style="padding-bottom:0px; width:272px">
+				<li class="col accent-color" style="height:100%" style="padding:16px">
+					<div class="row">
+						<div class="col s12 center" style="margin-top:24px">
+							<img class="profile-photo responsive-img circle z-depth-2" src="static/image/profile.jpg" alt="profile-photo">
+						</div>
+						<div class="col s12 center">
+							<a href="#main-content-about"><p class="side-content-highlighted" id="side-content-about">about</p></a>
+							<a href="#main-content-experience"><p class="side-content" id="side-content-experience">experience</p></a>
+							<a href="#main-content-education"><p class="side-content" id="side-content-education">education</p></a>
+							<a href="#main-content-skills"><p class="side-content" id="side-content-skills">skills</p></a>
+							<a href="#main-content-publications"><p class="side-content" id="side-content-publications">publications</p></a>
+							<a href="#main-content-news"><p class="side-content" id="side-content-news">news</p></a>
+							<a href="#main-content-contact"><p class="side-content" id="side-content-contact">contact</p></a>
+						</div>
+					</div>
+				</li>
+			</ul>
+			<div class="fixed-action-btn hide-on-med-and-up" style="bottom:45px; right:24px;">
+				<a href="#" data-target="slide-out" class="sidenav-trigger btn-floating accent-color">
+					<i class="material-icons">menu</i>
+				</a>
+			</div>
+      <div style="height:100%">
+        <div class="row" style="height:inherit; margin:0px">
+          <div class="col s12" style="overflow:auto; height:inherit">
+						<section id="main-content-about">
+							<div class="valign-wrapper" style="height:inherit">
+								<div class="row" style="margin:0px">
+									<div class="col s12">
+										<h6 style="margin:0px">Hi there! I'm</h6>
+									</div>
+									<div class="col s12">
+										<!--<h1 style="margin:0px"><span class="primary-text primary-text-color">Main <span class="accent-text-color">Text</span></span></h1>-->
+										<h1><span class="primary-text">Andre <span class="accent-text-color">Perez</span></span></h1>-
+									</div>
+									<div class="col s12">
+										<a href="https://www.facebook.com/dekoperez" target="_blank" class="btn-floating waves-effect waves-light primary-color"><i class="fab fa-facebook-f"></i></a>
+										<a href="https://www.linkedin.com/in/andremarcosperez/" target="_blank" class="btn-floating waves-effect waves-light primary-color"><i class="fab fa-linkedin-in"></i></a>
+										<a href="https://github.com/andreMarcosPerez" target="_blank" class="btn-floating waves-effect waves-light primary-color"><i class="fab fa-github"></i></a>
+									</div>
+								</div>
+							</div>
+						</section>
+						<div class="divider"></div>
+						<section id="main-content-experience">
+							<h4>experience</h4>
+						</section>
+						<div class="divider"></div>
+						<section id="main-content-education">
+							<h4>education</h4>
+						</section>
+						<div class="divider"></div>
+						<section id="main-content-skills">
+							<h4>skills</h4>
+						</section>
+						<div class="divider"></div>
+						<section id="main-content-publications">
+							<h4>publications</h4>
+						</section>
+						<div class="divider"></div>
+						<section id="main-content-news">
+							<h4>news</h4>
+						</section>
+						<div class="divider"></div>
+						<section id="main-content-contact">
+							<h4>contact</h4>
+						</section>
+          </div>
+        </div>
+      </div>
+		</main>
+		<script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function(){
+				$(".sidenav").sidenav();
+				$(".fixed-action-btn").floatingActionButton();
+			});
+		</script>
+		<script type="text/javascript" src="static/javascript/sideContent.js"></script>
+	</body>
+</html>

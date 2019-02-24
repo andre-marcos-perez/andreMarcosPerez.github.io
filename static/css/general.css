@@ -1,0 +1,19 @@
+header, main, footer {
+  padding-left: 272px;
+}
+@media only screen and (max-width : 992px) {
+  header, main, footer {
+    padding-left: 0;
+  }
+}
+body {
+  font-family: 'Open Sans', sans-serif;
+  height: 100vh;
+}
+main {
+  height: 100%;
+}
+section {
+  height: 100%;
+  margin-left: 2.5%;
+}
