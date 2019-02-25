@@ -1,0 +1,16 @@
+.custom-dropdown {
+  background-color: #bd5d38 !important;
+  padding-bottom: 24px;
+  position: absolute !important;
+  top: 56px !important;
+  right: 0px !important;
+  left: 0px !important;
+  width: 100% !important;
+}
+.nav-content {
+  margin:0px;
+  color:white !important;
+  font-weight:bold;
+  font-size:16px;
+  height:40px;
+}

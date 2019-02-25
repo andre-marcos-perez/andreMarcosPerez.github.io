@@ -1,9 +1,11 @@
 header, main, footer {
   padding-left: 272px;
+  color: #343a40 !important;
 }
 @media only screen and (max-width : 992px) {
   header, main, footer {
     padding-left: 0;
+    color: #343a40 !important;
   }
 }
 body {

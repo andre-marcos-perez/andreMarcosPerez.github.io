@@ -1,42 +1,57 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<!--<title> CV | Andre Perez</title>-->
+		<title> CV | Andre Perez</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 		<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" >
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans|Saira+Extra+Condensed">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
 		<link rel="stylesheet" href="static/css/color.css">
+		<link rel="stylesheet" href="static/css/navbar.css">
 		<link rel="stylesheet" href="static/css/general.css">
 		<link rel="stylesheet" href="static/css/sideContent.css">
 		<link rel="stylesheet" href="static/css/mainContent.css">
 	</head>
 	<body>
-		<main style="scroll-behavior:smooth">
+		<main>
+		<div id="dropdown" class="dropdown-content custom-dropdown">
+			<a href="#main-content-about"><p class="nav-content" id="nav-content-about">ABOUT</p></a>
+			<a href="#main-content-experience"><p class="nav-content" id="nav-content-experience">EXPERIENCE</p></a>
+			<a href="#main-content-education"><p class="nav-content" id="nav-content-education">EDUCATION</p></a>
+			<a href="#main-content-publications"><p class="nav-content" id="nav-content-publications">PUBLICATIONS</p></a>
+			<a href="#main-content-skills"><p class="nav-content" id="nav-content-skills">SKILLS</p></a>
+			<a href="#main-content-news"><p class="nav-content" id="nav-content-news">NEWS</p></a>
+			<a href="#main-content-contact"><p class="nav-content" id="nav-content-contact">CONTACT</p></a>
+		</div>
+		<div class="navbar-fixed hide-on-med-and-up">
+			<nav class="accent-color">
+				<div class="nav-wrapper" style="margin-left:24px; margin-right:24px">
+					<a href="#" class="brand-logo left" style="font-size:1.7rem">Andre Perez</a>
+					<ul id="nav-mobile" class="right">
+						<li><a class="dropdown-trigger" href="#!" data-target="dropdown"><i class="material-icons">menu</i></a></li>
+					</ul>
+				</div>
+			</nav>
+		</div>
 			<ul id="slide-out" class="sidenav sidenav-fixed" style="padding-bottom:0px; width:272px">
-				<li class="col accent-color" style="height:100%" style="padding:16px">
+				<li class="accent-color valign-wrapper" style="height:100%" style="padding:16px">
 					<div class="row">
-						<div class="col s12 center" style="margin-top:24px">
+						<div class="col s12 center" style="margin-top:-24px; margin-bottom:12px">
 							<img class="profile-photo responsive-img circle z-depth-2" src="static/image/profile.jpg" alt="profile-photo">
 						</div>
 						<div class="col s12 center">
-							<a href="#main-content-about"><p class="side-content-highlighted" id="side-content-about">about</p></a>
-							<a href="#main-content-experience"><p class="side-content" id="side-content-experience">experience</p></a>
-							<a href="#main-content-education"><p class="side-content" id="side-content-education">education</p></a>
-							<a href="#main-content-skills"><p class="side-content" id="side-content-skills">skills</p></a>
-							<a href="#main-content-publications"><p class="side-content" id="side-content-publications">publications</p></a>
-							<a href="#main-content-news"><p class="side-content" id="side-content-news">news</p></a>
-							<a href="#main-content-contact"><p class="side-content" id="side-content-contact">contact</p></a>
+							<a href="#main-content-about"><p class="side-content-highlighted" id="side-content-about">ABOUT</p></a>
+							<a href="#main-content-experience"><p class="side-content" id="side-content-experience">EXPERIENCE</p></a>
+							<a href="#main-content-education"><p class="side-content" id="side-content-education">EDUCATION</p></a>
+							<a href="#main-content-publications"><p class="side-content" id="side-content-publications">PUBLICATIONS</p></a>
+							<a href="#main-content-skills"><p class="side-content" id="side-content-skills">SKILLS</p></a>
+							<a href="#main-content-news"><p class="side-content" id="side-content-news">NEWS</p></a>
+							<a href="#main-content-contact"><p class="side-content" id="side-content-contact">CONTACT</p></a>
 						</div>
 					</div>
 				</li>
 			</ul>
-			<div class="fixed-action-btn hide-on-med-and-up" style="bottom:45px; right:24px;">
-				<a href="#" data-target="slide-out" class="sidenav-trigger btn-floating accent-color">
-					<i class="material-icons">menu</i>
-				</a>
-			</div>
       <div style="height:100%">
         <div class="row" style="height:inherit; margin:0px">
           <div class="col s12" style="overflow:auto; height:inherit">
@@ -47,13 +62,18 @@
 										<h6 style="margin:0px">Hi there! I'm</h6>
 									</div>
 									<div class="col s12">
-										<!--<h1 style="margin:0px"><span class="primary-text primary-text-color">Main <span class="accent-text-color">Text</span></span></h1>-->
-										<h1><span class="primary-text">Andre <span class="accent-text-color">Perez</span></span></h1>-
+										<h1><span class="primary-text">Andre <span class="accent-text-color">Perez</span></span></h1>
 									</div>
 									<div class="col s12">
-										<a href="https://www.facebook.com/dekoperez" target="_blank" class="btn-floating waves-effect waves-light primary-color"><i class="fab fa-facebook-f"></i></a>
-										<a href="https://www.linkedin.com/in/andremarcosperez/" target="_blank" class="btn-floating waves-effect waves-light primary-color"><i class="fab fa-linkedin-in"></i></a>
-										<a href="https://github.com/andreMarcosPerez" target="_blank" class="btn-floating waves-effect waves-light primary-color"><i class="fab fa-github"></i></a>
+										<a class="btn-floating waves-effect waves-light primary-color" style="margin-right:12px" href="https://www.facebook.com/dekoperez" target="_blank">
+											<i class="fab fa-facebook-f"></i>
+										</a>
+										<a class="btn-floating waves-effect waves-light primary-color" style="margin-right:12px" href="https://www.linkedin.com/in/andremarcosperez/" target="_blank">
+											<i class="fab fa-linkedin-in"></i>
+										</a>
+										<a class="btn-floating waves-effect waves-light primary-color" style="margin-right:12px" href="https://github.com/andreMarcosPerez" target="_blank">
+											<i class="fab fa-github"></i>
+										</a>
 									</div>
 								</div>
 							</div>
@@ -67,13 +87,13 @@
 							<h4>education</h4>
 						</section>
 						<div class="divider"></div>
+						<section id="main-content-publications">
+							<h4>publications</h4>
+						</section>
 						<section id="main-content-skills">
 							<h4>skills</h4>
 						</section>
 						<div class="divider"></div>
-						<section id="main-content-publications">
-							<h4>publications</h4>
-						</section>
 						<div class="divider"></div>
 						<section id="main-content-news">
 							<h4>news</h4>
@@ -91,9 +111,11 @@
 		<script type="text/javascript">
 			$(document).ready(function(){
 				$(".sidenav").sidenav();
+				$(".dropdown-trigger").dropdown();
 				$(".fixed-action-btn").floatingActionButton();
 			});
 		</script>
+		<script type="text/javascript" src="static/javascript/navbar.js"></script>
 		<script type="text/javascript" src="static/javascript/sideContent.js"></script>
 	</body>
 </html>
