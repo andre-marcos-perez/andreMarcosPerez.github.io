@@ -19,3 +19,16 @@ section {
   height: 100%;
   margin-left: 2.5%;
 }
+@media only screen and (max-width : 992px) {
+  section {
+    margin-top: 56px;
+    height: 80%;
+    margin-left: 2.5%;
+  }
+}
+h1, h6 {
+  margin: 0px;
+}
+a {
+  color: #343a40 !important;
+}

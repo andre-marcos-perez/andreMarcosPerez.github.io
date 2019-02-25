@@ -15,25 +15,25 @@
 	</head>
 	<body>
 		<main>
-		<div id="dropdown" class="dropdown-content custom-dropdown">
-			<a href="#main-content-about"><p class="nav-content" id="nav-content-about">ABOUT</p></a>
-			<a href="#main-content-experience"><p class="nav-content" id="nav-content-experience">EXPERIENCE</p></a>
-			<a href="#main-content-education"><p class="nav-content" id="nav-content-education">EDUCATION</p></a>
-			<a href="#main-content-publications"><p class="nav-content" id="nav-content-publications">PUBLICATIONS</p></a>
-			<a href="#main-content-skills"><p class="nav-content" id="nav-content-skills">SKILLS</p></a>
-			<a href="#main-content-news"><p class="nav-content" id="nav-content-news">NEWS</p></a>
-			<a href="#main-content-contact"><p class="nav-content" id="nav-content-contact">CONTACT</p></a>
-		</div>
-		<div class="navbar-fixed hide-on-med-and-up">
-			<nav class="accent-color">
-				<div class="nav-wrapper" style="margin-left:24px; margin-right:24px">
-					<a href="#" class="brand-logo left" style="font-size:1.7rem">Andre Perez</a>
-					<ul id="nav-mobile" class="right">
-						<li><a class="dropdown-trigger" href="#!" data-target="dropdown"><i class="material-icons">menu</i></a></li>
-					</ul>
-				</div>
-			</nav>
-		</div>
+			<div id="dropdown" class="dropdown-content custom-dropdown">
+				<a href="#main-content-about-divider"><p class="nav-content" id="nav-content-about">ABOUT</p></a>
+				<a href="#main-content-experience-divider"><p class="nav-content" id="nav-content-experience">EXPERIENCE</p></a>
+				<a href="#main-content-education-divider"><p class="nav-content" id="nav-content-education">EDUCATION</p></a>
+				<a href="#main-content-publications-divider"><p class="nav-content" id="nav-content-publications">PUBLICATIONS</p></a>
+				<a href="#main-content-skills-divider"><p class="nav-content" id="nav-content-skills">SKILLS</p></a>
+				<a href="#main-content-news-divider"><p class="nav-content" id="nav-content-news">NEWS</p></a>
+				<a href="#main-content-contact-divider"><p class="nav-content" id="nav-content-contact">CONTACT</p></a>
+			</div>
+			<div class="navbar-fixed hide-on-med-and-up">
+				<nav class="accent-color">
+					<div class="nav-wrapper" style="padding-left:24px; padding-right:24px">
+						<a href="#" class="brand-logo custom-brand-logo left">Andre Perez</a>
+						<div id="nav-mobile" class="right">
+							<a class="dropdown-trigger" href="#!" data-target="dropdown" style="color:white !important"><i class="material-icons">menu</i></a>
+						</div>
+					</div>
+				</nav>
+			</div>
 			<ul id="slide-out" class="sidenav sidenav-fixed" style="padding-bottom:0px; width:272px">
 				<li class="accent-color valign-wrapper" style="height:100%" style="padding:16px">
 					<div class="row">
@@ -58,11 +58,14 @@
 						<section id="main-content-about">
 							<div class="valign-wrapper" style="height:inherit">
 								<div class="row" style="margin:0px">
-									<div class="col s12">
-										<h6 style="margin:0px">Hi there! I'm</h6>
+									<div class="col s12" style="margin-top:0px; margin-bottom:24px">
+										<h6>Hi there! I'm</h6>
 									</div>
-									<div class="col s12">
+									<div class="col s12" style="margin-top:0px; margin-bottom:24px">
 										<h1><span class="primary-text">Andre <span class="accent-text-color">Perez</span></span></h1>
+									</div>
+									<div class="col s12" style="margin-top:0px; margin-bottom:24px">
+										<h6>Software engineer @ <a href="https://www.amdocs.com/" target="_blank" style="font-weight:bold">Amdocs</a></h6>
 									</div>
 									<div class="col s12">
 										<a class="btn-floating waves-effect waves-light primary-color" style="margin-right:12px" href="https://www.facebook.com/dekoperez" target="_blank">
@@ -78,27 +81,27 @@
 								</div>
 							</div>
 						</section>
-						<div class="divider"></div>
+						<div class="divider" id="main-content-experience-divider"></div>
 						<section id="main-content-experience">
 							<h4>experience</h4>
 						</section>
-						<div class="divider"></div>
+						<div class="divider" id="main-content-education-divider"></div>
 						<section id="main-content-education">
 							<h4>education</h4>
 						</section>
-						<div class="divider"></div>
+						<div class="divider" id="main-content-publications-divider"></div>
 						<section id="main-content-publications">
 							<h4>publications</h4>
 						</section>
+						<div class="divider" id="main-content-skills-divider"></div>
 						<section id="main-content-skills">
 							<h4>skills</h4>
 						</section>
-						<div class="divider"></div>
-						<div class="divider"></div>
+						<div class="divider" id="main-content-news-divider"></div>
 						<section id="main-content-news">
 							<h4>news</h4>
 						</section>
-						<div class="divider"></div>
+						<div class="divider" id="main-content-contact-divider"></div>
 						<section id="main-content-contact">
 							<h4>contact</h4>
 						</section>
@@ -111,11 +114,15 @@
 		<script type="text/javascript">
 			$(document).ready(function(){
 				$(".sidenav").sidenav();
-				$(".dropdown-trigger").dropdown();
+				$(".dropdown-trigger").dropdown({
+					constrainWidth: false,
+					coverTrigger: false,
+					inDuration: 500
+				});
 				$(".fixed-action-btn").floatingActionButton();
 			});
 		</script>
-		<script type="text/javascript" src="static/javascript/navbar.js"></script>
+		<!--<script type="text/javascript" src="static/javascript/navbar.js"></script>-->
 		<script type="text/javascript" src="static/javascript/sideContent.js"></script>
 	</body>
 </html>

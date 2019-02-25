@@ -1,7 +1,7 @@
 $('p').click(function() {
   if ($(this).hasClass('nav-content')) {
-    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-        anchor.addEventListener('click', function (e) {
+    document.querySelectorAll('a[href^="#main"]').forEach(anchor => {
+        anchor.addEventListener('pointerdown', function (e) {
             e.preventDefault();
         });
     });

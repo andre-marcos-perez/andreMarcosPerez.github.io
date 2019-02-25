@@ -1,6 +1,6 @@
 $('p').click(function() {
   if ($(this).hasClass('side-content')) {
-    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    document.querySelectorAll('a[href^="#main"]').forEach(anchor => {
         anchor.addEventListener('click', function (e) {
             e.preventDefault();
         });
