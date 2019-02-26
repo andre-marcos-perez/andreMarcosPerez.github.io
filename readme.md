@@ -2,9 +2,7 @@
 
 Base repository for my personal **Web CV** development.
 
-## Author
+## How to access
 
-This project is being developed by
-
-* [**Andre Perez**](mailto:andre.marcos.perez@gmail.com)
+Please clik [**here**](https://andremarcosperez.github.io/)
 
