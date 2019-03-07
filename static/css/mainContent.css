@@ -1,5 +1,20 @@
 .primary-text {
-  font-family: Saira Extra Condensed,serif;
+  font-family: Saira Extra Condensed, serif;
   font-weight: 700;
   text-transform: uppercase;
+}
+
+.secondary-text {
+  font-family: Saira Extra Condensed, serif;
+  font-weight: 700;
+}
+
+.default-margin {
+  margin-top:0px;
+  margin-bottom:24px;
+}
+
+.small-margin {
+  margin-top:0px;
+  margin-bottom:12px;
 }

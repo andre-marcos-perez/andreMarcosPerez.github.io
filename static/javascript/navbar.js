@@ -1,7 +1,7 @@
-$('p').click(function() {
+$(document).on('tap touchstart', function () {
   if ($(this).hasClass('nav-content')) {
     document.querySelectorAll('a[href^="#main"]').forEach(anchor => {
-        anchor.addEventListener('pointerdown', function (e) {
+        anchor.addEventListener('click', function (e) {
             e.preventDefault();
         });
     });

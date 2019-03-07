@@ -1,10 +1,11 @@
 .accent-color {
-  /* background-color: #2196f3 !important; */
   background-color: #bd5d38 !important;
 }
 .accent-text-color {
-  /* color: #2196f3 !important; */
   color: #bd5d38 !important;
+}
+.accent-blockquote-color {
+  border-color:#bd5d38 !important;
 }
 .primary-color {
   background-color: #343a40 !important;
