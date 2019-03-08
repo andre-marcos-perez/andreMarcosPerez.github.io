@@ -13,6 +13,9 @@
 .primary-text-color {
   color: #343a40 !important;
 }
+.primary-blockquote-color {
+  border-color:#343a40 !important;
+}
 .gold-color {
   background-color: #C9B037 !important;
 }

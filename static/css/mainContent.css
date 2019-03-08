@@ -9,21 +9,29 @@
 }
 .default-margin {
   margin-top:0px;
-  margin-bottom:24px;
+  margin-bottom:24px !important;
+}
+.smallest-margin {
+  margin-top:0px;
+  margin-bottom:6px !important;
 }
 .small-margin {
   margin-top:0px;
-  margin-bottom:12px;
+  margin-bottom:12px !important;
+}
+.biggest-margin {
+  margin-top:0px;
+  margin-bottom:220px !important;
 }
 .main-section {
   height: 100%;
 }
 @media only screen and (max-width : 992px) {
   .main-section {
-    height: 75%;
+    height: 80%;
   }
 }
-.halfway-btn {
+.topleft-btn {
   position: absolute;
   right: -15px;
   top: -15px;
