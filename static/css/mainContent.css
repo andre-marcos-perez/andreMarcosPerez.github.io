@@ -3,18 +3,28 @@
   font-weight: 700;
   text-transform: uppercase;
 }
-
 .secondary-text {
   font-family: Saira Extra Condensed, serif;
   font-weight: 700;
 }
-
 .default-margin {
   margin-top:0px;
   margin-bottom:24px;
 }
-
 .small-margin {
   margin-top:0px;
   margin-bottom:12px;
+}
+.main-section {
+  height: 100%;
+}
+@media only screen and (max-width : 992px) {
+  .main-section {
+    height: 75%;
+  }
+}
+.halfway-btn {
+  position: absolute;
+  right: -15px;
+  top: -15px;
 }

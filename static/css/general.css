@@ -16,13 +16,11 @@ main {
   height: 100%;
 }
 section {
-  height: 100%;
   margin-left: 2.5%;
 }
 @media only screen and (max-width : 992px) {
   section {
     margin-top: 56px;
-    height: 80%;
     margin-left: 2.5%;
   }
 }
@@ -31,4 +29,8 @@ h1, h5, h6 {
 }
 a {
   color: #343a40 !important;
+}
+p {
+  margin-top: 6px;
+  margin-bottom: 6px;
 }
