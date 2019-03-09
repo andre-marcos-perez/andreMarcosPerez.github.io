@@ -25,3 +25,31 @@
 .bronze-color {
   background-color: #6A3805 !important;
 }
+.input-field label {
+ color: #343a40 !important;
+}
+.input-field input:focus + label {
+ color: #bd5d38 !important;
+}
+.input-field input:focus {
+ border-bottom: 1px solid #bd5d38 !important;
+ box-shadow: 0 1px 0 0 #bd5d38 !important;
+}
+.input-field input.valid {
+  border-bottom: 1px solid #343a40 !important;
+  box-shadow: 0 1px 0 0 #343a40 !important;
+}
+.input-field textarea {
+  color: #343a40 !important;
+}
+.input-field textarea:focus + label {
+  color: #bd5d38 !important;
+}
+.input-field textarea:focus {
+  border-bottom: 1px solid #bd5d38 !important;
+  box-shadow: 0 1px 0 0 #bd5d38 !important;
+}
+.input-field textarea.valid {
+  border-bottom: 1px solid #343a40 !important;
+  box-shadow: 0 1px 0 0 #343a40 !important;
+}
