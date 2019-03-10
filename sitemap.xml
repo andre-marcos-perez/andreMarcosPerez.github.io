@@ -5,12 +5,12 @@
   xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
   <url>
     <loc>https://andremarcosperez.github.io/</loc>
-    <lastmod>2019-03-09T20:39:53+00:00</lastmod>
+    <lastmod>2019-03-10T19:29:31+00:00</lastmod>
     <priority>1.00</priority>
   </url>
   <url>
-    <loc>https://andremarcosperez.github.io/static/pdf/AndrePerez_CV.pdf/</loc>
-    <lastmod>2019-03-09T20:39:53+00:00</lastmod>
+    <loc>https://andremarcosperez.github.io/static/pdf/AndrePerez_CV.pdf</loc>
+    <lastmod>2019-03-10T19:29:31+00:00</lastmod>
     <priority>0.80</priority>
   </url>
 </urlset>
