@@ -25,6 +25,9 @@
 .bronze-color {
   background-color: #6A3805 !important;
 }
+.spinner-layer {
+  border-color: #bd5d38 !important;
+}
 .input-field label {
  color: #343a40 !important;
 }
