@@ -5,7 +5,7 @@
   }
 
   function validateHuman(honeypot) {
-    if (honeypot) {  //if hidden form filled up
+    if (honeypot) {
       console.log("Robot Detected!");
       return true;
     } else {
@@ -13,7 +13,6 @@
     }
   }
 
-  // get all data in form and return object
   function getFormData(form) {
     var elements = form.elements;
 
@@ -116,10 +115,8 @@
   document.addEventListener("DOMContentLoaded", loaded, false);
 
   function disableAllButtons(form) {
-    $('#btn-submit').click(function() {
-      $('#btn-submit').hide();
-      $('#btn-submit-success').show();
-    });
+    $('#btn-submit').hide();
+    $('#btn-submit-success').show();
     //var buttons = form.querySelectorAll("button");
     //for (var i = 0; i < buttons.length; i++) {
     //  buttons[i].disabled = true;
