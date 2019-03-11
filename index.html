@@ -1,6 +1,15 @@
 <!DOCTYPE html>
 <html>
 	<head>
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-135936249-1"></script>
+		<script>
+	  	window.dataLayer = window.dataLayer || [];
+	  	function gtag() {
+				dataLayer.push(arguments);
+			}
+	  	gtag('js', new Date());
+	  	gtag('config', 'UA-135936249-1');
+		</script>
 		<title>Andre Perez CV</title>
 		<meta name="description" content="Andre Perez, software engineer & data scientist. Make sure to stop by and feel free to get in touch, always!">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
@@ -384,7 +393,8 @@
 														<label class="primary-text" for="message">Message</label>
 													</div>
 													<div class="input-field col s12 default-margin center">
-														<button class="btn waves-effect waves-light primary-color">Submit</button>
+														<button id="btn-submit" class="btn waves-effect waves-light primary-color">Submit</button>
+														<button id="btn-submit-success" class="btn disabled waves-effect waves-light primary-color" style="display:none">Thanks</button>
 													</div>
 												</div>
 											</form>

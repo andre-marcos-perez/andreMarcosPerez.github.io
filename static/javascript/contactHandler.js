@@ -116,9 +116,13 @@
   document.addEventListener("DOMContentLoaded", loaded, false);
 
   function disableAllButtons(form) {
-    var buttons = form.querySelectorAll("button");
-    for (var i = 0; i < buttons.length; i++) {
-      buttons[i].disabled = true;
-    }
+    $('#btn-submit').click(function() {
+      $('#btn-submit').hide();
+      $('#btn-submit-success').show();
+    });
+    //var buttons = form.querySelectorAll("button");
+    //for (var i = 0; i < buttons.length; i++) {
+    //  buttons[i].disabled = true;
+    //}
   }
 })();
